@@ -1,0 +1,1 @@
+{"version":3,"file":"shutDownServer.d.ts","sourceRoot":"","sources":["../../../../src/app/utils/gracefullShutdownServer/shutDownServer.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,MAAM,EAAE,MAAM,MAAM,CAAA;AAE7B,eAAO,MAAM,gBAAgB,GACzB,QAAQ,MAAM,GAAG,SAAS,EAC1B,QAAQ,MAAM,EACd,iBAAY,kBAkCf,CAAA"}

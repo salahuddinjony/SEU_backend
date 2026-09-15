@@ -1,0 +1,1 @@
+{"version":3,"file":"types.d.ts","sourceRoot":"","sources":["../../../../src/app/utils/commonTypes/types.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,aAAa,EAAE,MAAM,sCAAsC,CAAC;AACrE,OAAO,EAAE,KAAK,EAAE,MAAM,UAAU,CAAC;AAEjC,MAAM,MAAM,gBAAgB,GAAG,OAAO,CAAC,aAAa,CAAC,GAAG;IACtD,GAAG,CAAC,EAAE,KAAK,CAAC,QAAQ,GAAG,MAAM,CAAC;CAC/B,CAAC"}

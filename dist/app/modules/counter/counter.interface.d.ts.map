@@ -1,0 +1,1 @@
+{"version":3,"file":"counter.interface.d.ts","sourceRoot":"","sources":["../../../../src/app/modules/counter/counter.interface.ts"],"names":[],"mappings":"AACA,MAAM,MAAM,OAAO,GAAE;IACjB,GAAG,EAAE,MAAM,CAAC;IACZ,IAAI,EAAE,MAAM,CAAC;IACb,aAAa,EAAE,MAAM,CAAA;CACxB,CAAA"}
