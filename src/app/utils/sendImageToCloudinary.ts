@@ -2,8 +2,10 @@ import { v2 as cloudinary, UploadApiResponse } from "cloudinary";
 import config from "../config/index.js";
 import multer from "multer";
 import fs from "fs";
+import os from "os";
+import path from "path";
 
-const uploadDirectory = process.cwd() + "/uploads";
+const uploadDirectory = path.join(os.tmpdir(), "verisity-uploads");
 fs.mkdirSync(uploadDirectory, { recursive: true });
 
 // Configuration

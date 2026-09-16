@@ -9,7 +9,9 @@
     "start": "node src/server.js",
     "build": "tsc",
     "vercel:dev": "vercel dev",
-    "vercel:deploy": "vercel --prod",
+    "vercel:build": "tsc",
+    "vercel:env:pull": "vercel env pull .env.local",
+    "vercel:deploy": "npm run build && vercel --prod",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
     "test": "echo \"Error: no test specified\" && exit 1"

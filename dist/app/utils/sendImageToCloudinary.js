@@ -2,7 +2,9 @@ import { v2 as cloudinary } from "cloudinary";
 import config from "../config/index.js";
 import multer from "multer";
 import fs from "fs";
-const uploadDirectory = process.cwd() + "/uploads";
+import os from "os";
+import path from "path";
+const uploadDirectory = path.join(os.tmpdir(), "verisity-uploads");
 fs.mkdirSync(uploadDirectory, { recursive: true });
 // Configuration
 cloudinary.config({
